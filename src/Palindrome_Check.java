@@ -12,7 +12,7 @@ public class Palindrome_Check {
             reversed=reversed*10+digit;
             num=num/10;
         }while(num!=0);
-        if(num==reversed){
+        if(original == reversed){
             System.out.println(original+" original number is equal to "+reversed);
         }else{
             System.out.println("Original number is not equal to reversed number..");
